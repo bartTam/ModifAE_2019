@@ -1,3 +1,0 @@
-python3 generate_images.py --log_path log/2dtest/ --num_traits 2 --first_img_num 087391 --input_image_size 64
-
-python3 main.py --image_path /raid/SAGAN/CelebA/images/ --data_csv_path /raid/SAGAN/CelebA/images/scaled.csv --batch_size 800 --input_image_size 64 --log_path log/2dtest --targets trustworthy,aggressive
