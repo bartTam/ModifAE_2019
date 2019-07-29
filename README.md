@@ -2,9 +2,16 @@
 
 This repo contains a PyTorch implementation of the ModifAE model from the CogSci 2019 paper "Modifying the Social Dimensions of Faces with ModifAE."
 
-main.py   allows you to train a ModifAE model.
+- main.py   allows you to train a ModifAE model.
 
-generate_images.py  allows you to generate various image modifications and traversals from a trained model.
+![Architecture](ModifAE_new_Architecture.png)
+
+- generate_images.py  allows you to generate various image modifications and traversals from a trained model.
+
+
+![Architecture](modifae_multitrait_small.png)
+
+![Architecture](half_average_trait_traversals.png)
 
 ## Example commands below:
 
